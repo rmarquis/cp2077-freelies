@@ -1,0 +1,15 @@
+function Freelies()
+    Game.AddToInventory("Items.Twitch_Drop_Specs", 1)
+    Game.AddToInventory("Items.Twitch_Drop_Vest", 1)
+    Game.AddToInventory("Items.Twitch_Drop_Pants", 1)
+    Game.AddToInventory("Items.Twitch_Drop_Boots", 1)
+    Game.AddToInventory("Items.Preset_Ashura_Twitch", 1)
+    Game.AddToInventory("Items.Preset_Warden_Amazon", 1)
+    Game.AddToInventory("Items.Preset_Nekomata_Amazon", 1)
+    Game.AddToInventory("Items.Preset_Kyubi_Amazon", 1) 
+    Game.AddToInventory("Items.Preset_Grit_Amazon", 1)
+    Game.AddToInventory("Items.Preset_Crusher_Amazon", 1) 
+    Game.AddToInventory("Items.Preset_Ajax_Amazon", 1)
+end
+
+registerHotkey("Freelies", "Get promised free DLCs", Freelies)
